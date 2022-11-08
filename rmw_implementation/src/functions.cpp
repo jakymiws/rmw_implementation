@@ -746,7 +746,7 @@ RMW_INTERFACE_FN(
   rmw_notify_participant_dynamic_network_interface,
   rmw_ret_t, RMW_RET_ERROR,
   1, ARG_TYPES(
-    rmw_node_t *))
+    rmw_context_t *))
 
 #define GET_SYMBOL(x) symbol_ ## x = get_symbol(#x);
 
